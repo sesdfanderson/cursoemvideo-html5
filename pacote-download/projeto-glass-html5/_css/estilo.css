@@ -4,12 +4,57 @@ body {
     background-color: rgb(162, 227, 247);
     color: rgb(90, 67, 67);
 }
+
+div#interface {
+    width: 900px;
+    background-color: rgb(117, 208, 250);
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px teal;
+    padding: 10px;
+}
+
 p {
     text-align: justify;
     text-indent: 50px;
 }
 
+header#cabecalho img#icone {
+    position: absolute;
+    left: 780px;
+    top: 70px;
+}
+
+/*  deu pala  >>  header#cabecalho {
+    border-bottom: 1px white solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+*/
+header#cabecalho h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30pt;
+    color: gray;
+    text-shadow: 1px 1px 1px black(0,0,0,1);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
 /* Formatação de imagens com legendas */
+
+figure.legenda h3 {
+    display: none;
+}
+figure.legenda p {
+    display: none;
+}
 
 figure.foto-legenda {
     position: relative;
@@ -63,9 +108,20 @@ nav#menu li {
 }
 
 nav#menu li:hover {
-    background-color: cornsilk;
+    background-color: darkcyan;
 }
 
 nav#menu h1 {
     display: none;
+}
+
+nav#menu a {
+    color: rgb(68, 68, 245);
+    text-decoration: none;
+
+}
+
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
 }
